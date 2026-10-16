@@ -50,6 +50,10 @@
         margin-right:auto;
         }
 
+figure {
+    margin: 0;
+}
+
 .framed {
     border: 8px solid rgb(139, 0, 0);
     border-radius: 20px;
