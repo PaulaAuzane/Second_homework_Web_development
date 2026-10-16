@@ -67,6 +67,8 @@ figure {
     width: 100%;
     max-width: 800px;
     height:auto;
+    margin-left: 0;
+    margin-right: auto;
 }
 .subtitle{font-size: 25px; color: rgb(39, 34, 75); font-style: italic; text-align: center;}
 
