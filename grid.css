@@ -31,7 +31,7 @@
 .box02 p {margin: 4px 0;}
 .box03{grid-area: head-tools;}
 .box04{grid-area: hero-feature;}
-.box04 h3 {
+.box04 h2 {
     background-color: transparent !important;
 }
 .box05{grid-area: hero-CTA;}
