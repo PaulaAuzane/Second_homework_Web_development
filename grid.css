@@ -1,6 +1,6 @@
 .gridcontainer {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto;
     justify-content: flex-start;
     align-items: flex-start;

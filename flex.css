@@ -8,7 +8,8 @@
     }
 
 .box {
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     min-height: 200px;
     background-color: rgb(47, 38, 97);
     color: white;
