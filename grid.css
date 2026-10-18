@@ -17,12 +17,23 @@
 .box02{display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
+    text-align: center;
     grid-area: head-global;
-    overflow: auto;}
+    overflow: auto;
+    padding: 10px;}
+.box02 h2, .box03 h3{
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 1.2;
+    margin: 8px 0;
+}
 .box02 p {margin: 4px 0;}
 .box03{grid-area: head-tools;}
 .box04{grid-area: hero-feature;}
+.box04 h3 {
+    background-color: transparent !important;
+}
 .box05{grid-area: hero-CTA;}
 .box05 .container {display: flex; flex-direction: row; gap: 10px; justify-content: space-between;}
 .box06{grid-area: ad;}
@@ -42,9 +53,13 @@
         "head-global head-tools"
         "hero-CTA hero-CTA"
         "main-feature main-feature"
-        "ad ad"
         "main-listing main-listing"
+        "ad ad"
         "foot foot";
+
+    .box04, .box09 {
+        display: none;
+    }
 
     }    
 }

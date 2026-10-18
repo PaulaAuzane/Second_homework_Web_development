@@ -6,6 +6,10 @@
         font-family: Arial, sans-serif;
         font-size: 20px;
     }
+
+    .programmes-p{
+        text-align: center;
+    }
     ul, ol {
         color: rgb(82, 9, 102);
         text-align: left;
@@ -27,9 +31,13 @@
         font-size: 25px;
         background-color:white;    }
 
+    .programmes-h2 {
+        text-align: center;
+    }
+
     h3 {
         color: rgb(0, 0, 0);
-        text-align: left;
+        text-align: center;
         font-family: Arial, sans-serif;
         font-size: 25px;
         background-color:white;
