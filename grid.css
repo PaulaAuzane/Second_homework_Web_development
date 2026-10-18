@@ -1,0 +1,89 @@
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: auto auto auto auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 20px;
+    grid-template-areas:
+        "head-brand head-global head-tools"
+        "hero-feature hero-CTA ad"
+        "main-feature main-listing sidebar"
+        "foot foot foot";
+    }
+
+.box01{grid-area: head-brand;}
+.box02{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: head-global;
+    overflow: auto;}
+.box02 p {margin: 4px 0;}
+.box03{grid-area: head-tools;}
+.box04{grid-area: hero-feature;}
+.box05{grid-area: hero-CTA;}
+.box05 .container {display: flex; flex-direction: row; gap: 10px; justify-content: space-between;}
+.box06{grid-area: ad;}
+.box07{grid-area: main-feature;}
+.box08{grid-area: main-listing;}
+.box09{grid-area: sidebar;}
+.box10{grid-area: foot;}
+
+@media (max-width: 575px){
+.gridcontainer {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    gap: 15px;
+    grid-template-areas:
+        "head-brand head-brand"
+        "head-global head-tools"
+        "hero-CTA hero-CTA"
+        "main-feature main-feature"
+        "ad ad"
+        "main-listing main-listing"
+        "foot foot";
+
+    }    
+}
+@media screen and (min-width: 576px) and (max-width: 991px) {
+.gridcontainer {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-areas:
+    "head-brand head-global head-tools"
+    "hero-feature hero-feature hero-feature"
+    "hero-CTA hero-CTA hero-CTA"
+    "main-feature main-feature ad"
+    "main-listing main-listing main-listing"
+    "sidebar sidebar sidebar"
+    "foot foot foot"
+        }
+}
+
+@media screen and (min-width: 992px) {
+.gridcontainer {
+    grid-template-columns: 1.25fr 2fr 1.25fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "head-brand head-global head-tools"
+    "hero-feature hero-CTA ad"
+    "main-feature main-listing sidebar"
+    "foot foot foot"
+        }
+}
+
+.gridbox {
+    min-height: 200px;
+    background-color: rgb(221, 231, 232);
+    color: rgb(82, 9, 102);
+    font-size: 22px;
+
+    display: block;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 15px;
+    min-width: 0;
+}
