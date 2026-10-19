@@ -36,6 +36,7 @@
 }
 .box05{grid-area: hero-CTA;}
 .box05 .container {display: flex; flex-direction: row; gap: 10px; justify-content: space-between;}
+.box05 h2 {text-align: center;}
 .box06{grid-area: ad;}
 .box07{grid-area: main-feature;}
 .box08{grid-area: main-listing;}
