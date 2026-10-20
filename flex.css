@@ -28,4 +28,5 @@
 .box-jvlma:hover,
 .box-lma:hover,
 .box-lka:hover {
-    box-shadow: 12px 12px 2px 1px gray}
+    box-shadow: 12px 12px 2px 1px gray;
+    transform: scale(1.1);}
