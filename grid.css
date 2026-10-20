@@ -62,6 +62,20 @@
         display: none;
     }
 
+    .gridcontainer .box02 {
+        font-size: 14px;
+    }
+
+    .gridcontainer .box02 h2,
+    .gridcontainer .box02 h3 {
+        font-size: 16px !important;
+    }
+
+    .gridcontainer .box02 p,
+    .gridcontainer .box02 a {
+        font-size: 13px !important;
+    }
+
     }    
 }
 @media screen and (min-width: 576px) and (max-width: 991px) {

@@ -7,7 +7,9 @@
     padding: 20px;
     }
 
-.box {
+.box-jvlma,
+.box-lma,
+.box-lka {
     width: 100%;
     max-width: 250px;
     min-height: 200px;
