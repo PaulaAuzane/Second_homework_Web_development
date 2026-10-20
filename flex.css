@@ -24,3 +24,8 @@
     padding: 15px;
     min-width: 0;
 }
+
+.box-jvlma:hover,
+.box-lma:hover,
+.box-lka:hover {
+    box-shadow: 12px 12px 2px 1px gray}
